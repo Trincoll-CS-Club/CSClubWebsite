@@ -6,6 +6,8 @@ import Button from "@mui/joy/Button";
 import ButtonGroup from "@mui/joy/ButtonGroup";
 
 const PersonCard = (props) => {
+  const { imageSrc, name, position, emailAddress, linkedinUrl } = props;
+
   return (
     <Card sx={{ width: 250 }} color="warning" variant="soft" invertedColors>
       <AspectRatio
@@ -14,20 +16,24 @@ const PersonCard = (props) => {
         minWidth="200px"
         maxWidth="200px"
       >
-        <img
-          src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
-          loading="lazy"
-          alt=""
-        />
+        <img src={imageSrc} loading="lazy" alt="" />
       </AspectRatio>
       <div>
-        <Typography level="h3" style={{ textAlign: 'center' }}>Anupam Khargharia</Typography>
-        <Typography level="body-lg" style={{ textAlign: 'center' }}>Vice President</Typography>
+        <Typography level="h3" style={{ textAlign: "center" }}>
+          {name}
+        </Typography>
+        <Typography level="body-lg" style={{ textAlign: "center" }}>
+          {position}
+        </Typography>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <ButtonGroup variant="soft" size="lg">
-          <Button>Email</Button>
-          <Button onClick={() => window.location.href = 'https://www.linkedin.com/in/akhargha'}>LinkedIn</Button>
+          <Button component="a" href={`mailto:${emailAddress}`}>
+            Email
+          </Button>
+          <Button onClick={() => window.open(linkedinUrl, "_blank")}>
+            LinkedIn
+          </Button>
         </ButtonGroup>
       </div>
     </Card>
