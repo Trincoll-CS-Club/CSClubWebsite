@@ -27,7 +27,7 @@ const PersonCard = (props) => {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <ButtonGroup variant="soft" size="lg">
           <Button>Email</Button>
-          <Button>LinkedIn</Button>
+          <Button onClick={() => window.location.href = 'https://www.linkedin.com/in/akhargha'}>LinkedIn</Button>
         </ButtonGroup>
       </div>
     </Card>
