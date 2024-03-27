@@ -5,10 +5,13 @@ import people from "./Data/people.json";
 import Grid from "@mui/joy/Grid";
 import Typography from "@mui/joy/Typography";
 
+import MembersComponent from "./Components/MembersComponent";
+
 const App = () => {
   return (
     <div>
       <NavBar />
+      <MembersComponent />
       <Typography level="h1" color="warning" style={{ textAlign: "center", paddingTop: "70px"}}>
         About Us
       </Typography>
