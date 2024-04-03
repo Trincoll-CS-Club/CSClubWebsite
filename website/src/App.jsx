@@ -4,18 +4,33 @@ import NavBar from "./Components/NavBar";
 import people from "./Data/people.json";
 import Grid from "@mui/joy/Grid";
 import Typography from "@mui/joy/Typography";
+import Footer from "./Components/Footer";
 
 import MembersComponent from "./Components/MembersComponent";
+
 
 const App = () => {
   return (
     <div>
       <NavBar />
       <MembersComponent />
-      <Typography level="h1" color="warning" style={{ textAlign: "center", paddingTop: "70px"}}>
+      <Typography
+        level="h1"
+        color="warning"
+        style={{ textAlign: "center", paddingTop: "70px", fontSize: "4rem" }}
+      >
         About Us
       </Typography>
-      <Typography level="body-lg" style={{ textAlign: "center", paddingLeft: "50px", paddingRight: "50px", paddingTop: "20px" }}>
+      <Typography
+        level="body-lg"
+        style={{
+          textAlign: "center",
+          paddingLeft: "50px",
+          paddingRight: "50px",
+          paddingTop: "20px",
+          fontSize: "1.5rem"
+        }}
+      >
         Welcome to the Trinity College Computer Science Club! We are a
         passionate community of students dedicated to exploring the vast and
         evolving field of computer science. Our club is the hub for innovation,
@@ -31,11 +46,19 @@ const App = () => {
         future of technology!
       </Typography>
 
-      <Typography level="h1" color="warning" style={{ textAlign: "center", paddingTop: "70px"}}>
+      <Typography
+        level="h1"
+        color="warning"
+        style={{ textAlign: "center", paddingTop: "70px", fontSize: "3.5rem" }}
+      >
         The Team
       </Typography>
 
-      <Grid container spacing={2} sx={{ paddingLeft: "100px", paddingTop: "50px" }}>
+      <Grid
+        container
+        spacing={2}
+        sx={{ paddingLeft: "100px", paddingTop: "50px" }}
+      >
         {" "}
         {/* Add a Grid container here */}
         {people.map((people_data, index) => (
@@ -52,6 +75,9 @@ const App = () => {
           </Grid>
         ))}
       </Grid>
+      <div style={{ paddingTop: "20px"}}>
+        <Footer />
+      </div>
     </div>
   );
 };
