@@ -9,11 +9,10 @@ import Footer from "./Components/Footer";
 import MembersComponent from "./Components/MembersComponent";
 
 
-const App = () => {
+const Explore = () => {
   return (
     <div>
       <NavBar />
-      <MembersComponent />
       <Typography
         level="h1"
         color="warning"
@@ -45,36 +44,6 @@ const App = () => {
         members to thrive. Join us and be part of a community that shapes the
         future of technology!
       </Typography>
-
-      <Typography
-        level="h1"
-        color="warning"
-        style={{ textAlign: "center", paddingTop: "70px", fontSize: "3.5rem" }}
-      >
-        The Team
-      </Typography>
-
-      <Grid
-        container
-        spacing={2}
-        sx={{ paddingLeft: "100px", paddingTop: "50px" }}
-      >
-        {" "}
-        {/* Add a Grid container here */}
-        {people.map((people_data, index) => (
-          <Grid item xs={3} key={index}>
-            {" "}
-            {/* Each FixtureBox as a Grid item */}
-            <PersonCard
-              name={people_data.name}
-              position={people_data.position}
-              imageSrc={people_data.imageSrc}
-              emailAddress={people_data.emailAddress}
-              linkedinUrl={people_data.linkedinUrl}
-            />
-          </Grid>
-        ))}
-      </Grid>
       <div style={{ paddingTop: "20px"}}>
         <Footer />
       </div>
@@ -82,4 +51,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Explore;

@@ -26,9 +26,9 @@ const NavBar = () => {
         </Typography>
 
         <Box sx={{ display: "flex", gap: "2em" }}>
-          <Button variant="solid" color="warning">About Us</Button>
-          <Button variant="solid" color="warning">Explore</Button>
-          <Button variant="solid" color="warning">Join Now</Button>
+          <Button variant="solid" color="warning" onClick={() => (window.location.href = "/index.html")}>About Us</Button>
+          <Button variant="solid" color="warning" onClick={() => (window.location.href = "/explore.html")}>Explore</Button>
+          <Button variant="solid" color="warning" onClick={() => (window.location.href = "/")}>Join Now</Button>
         </Box>
       </Box>
     </CssVarsProvider>
