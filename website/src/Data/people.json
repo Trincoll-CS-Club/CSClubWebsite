@@ -1,71 +1,71 @@
 [
     {
-        "name": "Anupam Khargharia",
-        "position": "Vice President",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
-        "emailAddress": "akhargha@trincoll.edu",
-        "linkedinUrl": "https://www.linkedin.com/in/akhargha/"
-    },
-    {
         "name": "Michael Monti",
         "position": "President",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://i.ibb.co/5FHtPjS/3024x4032-jpeg-ba595fe711c9437dac5cc9ca23fdae2a-large.jpg",
         "emailAddress": "michael.monti@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/michaeljosephmonti"
     },
     {
+        "name": "Anupam Khargharia",
+        "position": "Vice President",
+        "imageSrc": "https://i.ibb.co/B2VcMT6/DSC-6030-2.jpg",
+        "emailAddress": "akhargha@trincoll.edu",
+        "linkedinUrl": "https://www.linkedin.com/in/akhargha/"
+    },
+    {
         "name": "Kaila Dowd",
         "position": "Seceretary",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://i.ibb.co/Wxp0gnH/b85abfdc90154fa2867b8e1caa256026.jpg",
         "emailAddress": "kaila.dowd@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/kaila-dowd"
     },
     {
         "name": "Shivashu Dwivedi",
         "position": "Treasurer",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://i.ibb.co/bF3CM98/6a155a5e3b484510b377f32f6df343e4.jpg",
         "emailAddress": "shivanshu.dwivedi@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/shivanshudwivedi"
     },
     {
         "name": "Bénédicte Baile",
         "position": "Marketing",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://i.ibb.co/Hd1nCcw/1237x1562-jpeg-de8b6506005f4fe08f647b80300284a7-large.jpg",
         "emailAddress": "myriamfleurbenedicte.baile@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/benedicte-baile"
     },
     {
         "name": "Hanna Saffi",
-        "position": "Event Coordinator",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "position": "Front-End Developer",
+        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
         "emailAddress": "hanna.lopezsaffi@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/hannasaffi"
     },
     {
         "name": "Shashwath Sunkum",
         "position": "Membership Coordinator",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://i.ibb.co/Hxr5ghw/43cb9f4a138f40f0a7564d4a6721f5aa.jpg",
         "emailAddress": "shashwath.sunkum@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/shashwath-sunkum-600128248"
     },
     {
         "name": "Ralston Raphael",
-        "position": "Front-End Designer",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "position": "Front-End Developer",
+        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
         "emailAddress": "rraphae2@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/ralston-raphael"
     },
     {
         "name": "Lucas Lee",
         "position": "Full-Stack Developer",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://i.ibb.co/NVh1nMc/9a3fd7dff8f64c49bc409ea5251a213f.jpg",
         "emailAddress": "hyun.lee@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/mllucashyunlee"
     },
     {
         "name": "Dagoberto Tellez",
         "position": "Full-Stack Developer",
-        "imageSrc": "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
         "emailAddress": "dagoberto.tellez@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/dagoberto-tellez"
     }
