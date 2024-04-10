@@ -59,7 +59,7 @@ const NavBar = () => {
                 bgcolor: "#cc0058",
               },
             }}
-            onClick={() => (window.location.href = "/")}
+            onClick={() => (window.location.href = "https://forms.gle/1khC8AiXXPhizdEDA")}
           >
             Join Now
           </Button>
