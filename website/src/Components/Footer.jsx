@@ -8,8 +8,8 @@ import Tooltip from "@mui/joy/Tooltip";
 import AspectRatio from "@mui/joy/AspectRatio";
 
 import cslogo from "../Data/Icon/Computer_Science_Logo_blue.png";
-import linkedinLogo from "../Data/Icon/linkedin.png";
-import instagramLogo from "../Data/Icon/instagram.png";
+import linkedinLogo from "../Data/Icon/backLinkedin.png";
+import instagramLogo from "../Data/Icon/blackInstagram.png";
 
 const Footer = () => {
   return (

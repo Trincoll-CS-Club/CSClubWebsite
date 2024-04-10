@@ -15,7 +15,7 @@ const NavBar = () => {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "16px",
-          bgcolor: "#b68af4",
+          bgcolor: "#ffffff",
           "&:hover": {
             bgcolor: "#8338ec",
           },
