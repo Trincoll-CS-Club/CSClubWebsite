@@ -21,9 +21,9 @@ const Footer = () => {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "16px",
-          bgcolor: "warning.100",
+          bgcolor: "#b68af4",
           "&:hover": {
-            bgcolor: "warning.200",
+            bgcolor: "#8338ec",
           },
         }}
       >
@@ -38,7 +38,7 @@ const Footer = () => {
           }}
         >
           <Tooltip title="https://www.trincoll.edu/cs/" variant="solid">
-            <Button variant="plain" color="warning">
+            <Button variant="plain" color="primary">
               <img
                 src={cslogo}
                 loading="lazy"
@@ -50,7 +50,7 @@ const Footer = () => {
             </Button>
           </Tooltip>
           <Tooltip title="https://www.linkedin.com/groups/12937019/" variant="soft">
-            <Button variant="plain" color="warning">
+            <Button variant="plain" color="primary">
               <img
                 src={linkedinLogo}
                 loading="lazy"
@@ -62,7 +62,7 @@ const Footer = () => {
             </Button>
           </Tooltip>
           <Tooltip title="https://www.instagram.com/trincoll_cs_club/" variant="outlined">
-          <Button variant="plain" color="warning">
+          <Button variant="plain" color="primary">
               <img
                 src={instagramLogo}
                 loading="lazy"

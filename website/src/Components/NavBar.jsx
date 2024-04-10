@@ -15,18 +15,54 @@ const NavBar = () => {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "16px",
-          bgcolor: "warning.100",
+          bgcolor: "#b68af4",
           "&:hover": {
-            bgcolor: "warning.200",
+            bgcolor: "#8338ec",
           },
         }}
       >
-        <img src="https://i.ibb.co/X4cPJdm/logo-2.png" style={{ maxHeight: "90px", maxWidth: "90px"}} onClick={() => (window.location.href = "/")}/>
-
+        <img
+          src="https://i.ibb.co/X4cPJdm/logo-2.png"
+          style={{ maxHeight: "90px", maxWidth: "90px" }}
+          onClick={() => (window.location.href = "/")}
+        />
         <Box sx={{ display: "flex", gap: "2em" }}>
-          <Button variant="solid" color="warning" onClick={() => (window.location.href = "/about.html")}>About Us</Button>
-          <Button variant="solid" color="warning" onClick={() => (window.location.href = "/explore.html")}>Explore</Button>
-          <Button variant="solid" color="warning" onClick={() => (window.location.href = "/")}>Join Now</Button>
+          <Button
+            variant="solid"
+            sx={{
+              bgcolor: "#ff006e",
+              "&:hover": {
+                bgcolor: "#cc0058",
+              },
+            }}
+            onClick={() => (window.location.href = "/about.html")}
+          >
+            About Us
+          </Button>
+          <Button
+            variant="solid"
+            sx={{
+              bgcolor: "#ff006e",
+              "&:hover": {
+                bgcolor: "#cc0058",
+              },
+            }}
+            onClick={() => (window.location.href = "/explore.html")}
+          >
+            Explore
+          </Button>
+          <Button
+            variant="solid"
+            sx={{
+              bgcolor: "#ff006e",
+              "&:hover": {
+                bgcolor: "#cc0058",
+              },
+            }}
+            onClick={() => (window.location.href = "/")}
+          >
+            Join Now
+          </Button>
         </Box>
       </Box>
     </CssVarsProvider>
