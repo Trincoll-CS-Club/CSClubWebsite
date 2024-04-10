@@ -35,13 +35,6 @@
         "linkedinUrl": "linkedin.com/in/benedicte-baile"
     },
     {
-        "name": "Hanna Saffi",
-        "position": "Front-End Developer",
-        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
-        "emailAddress": "hanna.lopezsaffi@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/hannasaffi"
-    },
-    {
         "name": "Shashwath Sunkum",
         "position": "Membership Coordinator",
         "imageSrc": "https://i.ibb.co/Hxr5ghw/43cb9f4a138f40f0a7564d4a6721f5aa.jpg",
@@ -49,24 +42,10 @@
         "linkedinUrl": "linkedin.com/in/shashwath-sunkum-600128248"
     },
     {
-        "name": "Ralston Raphael",
-        "position": "Front-End Developer",
-        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
-        "emailAddress": "rraphae2@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/ralston-raphael"
-    },
-    {
         "name": "Lucas Lee",
         "position": "Full-Stack Developer",
         "imageSrc": "https://i.ibb.co/NVh1nMc/9a3fd7dff8f64c49bc409ea5251a213f.jpg",
         "emailAddress": "hyun.lee@trincoll.edu",
         "linkedinUrl": "linkedin.com/in/mllucashyunlee"
-    },
-    {
-        "name": "Dagoberto Tellez",
-        "position": "Full-Stack Developer",
-        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
-        "emailAddress": "dagoberto.tellez@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/dagoberto-tellez"
     }
 ]

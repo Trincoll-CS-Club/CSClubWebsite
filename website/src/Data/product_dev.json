@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Hanna Saffi",
+        "position": "Front-End Developer",
+        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
+        "emailAddress": "hanna.lopezsaffi@trincoll.edu",
+        "linkedinUrl": "linkedin.com/in/hannasaffi"
+    },
+    {
+        "name": "Ralston Raphael",
+        "position": "Front-End Developer",
+        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
+        "emailAddress": "rraphae2@trincoll.edu",
+        "linkedinUrl": "linkedin.com/in/ralston-raphael"
+    },
+    {
+        "name": "Dagoberto Tellez",
+        "position": "Full-Stack Developer",
+        "imageSrc": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png",
+        "emailAddress": "dagoberto.tellez@trincoll.edu",
+        "linkedinUrl": "linkedin.com/in/dagoberto-tellez"
+    }
+]
