@@ -21,9 +21,7 @@ const NavBar = () => {
           },
         }}
       >
-        <Typography level="h5" component="div">
-          Trinity College CS Club Logo
-        </Typography>
+        <img src="https://i.ibb.co/X4cPJdm/logo-2.png" style={{ maxHeight: "90px", maxWidth: "90px"}} onClick={() => (window.location.href = "/")}/>
 
         <Box sx={{ display: "flex", gap: "2em" }}>
           <Button variant="solid" color="warning" onClick={() => (window.location.href = "/about.html")}>About Us</Button>
