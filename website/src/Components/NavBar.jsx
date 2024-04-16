@@ -23,7 +23,7 @@ const NavBar = () => {
       >
         <img
           src="https://i.ibb.co/X4cPJdm/logo-2.png"
-          style={{ maxHeight: "90px", maxWidth: "90px" }}
+          style={{ maxHeight: "90px", maxWidth: "90px", cursor: "pointer" }}
           onClick={() => (window.location.href = "/")}
         />
         <Box sx={{ display: "flex", gap: "2em" }}>

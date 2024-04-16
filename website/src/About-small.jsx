@@ -93,7 +93,7 @@ const About = () => {
         ))}
       </Grid>
 
-      <div style={{ paddingTop: "20px" }}>
+      <div style={{ paddingTop: "100px" }}>
         <Footer />
       </div>
     </div>
