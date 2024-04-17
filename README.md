@@ -14,7 +14,5 @@ Remember to install sanity client & integration with React
 
 ```
 cd website
-npm install -g @sanity/cli
-
-
+npm install @sanity/client
 ```
