@@ -10,3 +10,11 @@ Then, navigate to the localhost that vite allocates (usually localhost:5173 for 
 
 Individual componenets are under src>Components
 
+Remember to install sanity client & integration with React
+
+```
+cd website
+npm install -g @sanity/cli
+
+
+```
