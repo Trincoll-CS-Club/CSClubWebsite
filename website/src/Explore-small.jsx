@@ -1,12 +1,8 @@
 import * as React from "react";
-import PersonCard from "./Components/PersonCard";
 import NavBar from "./Components/NavBar";
-import people from "./Data/people.json";
-import Grid from "@mui/joy/Grid";
+
 import Typography from "@mui/joy/Typography";
 import Footer from "./Components/Footer";
-
-import MembersComponent from "./Components/MembersComponent";
 
 
 const Explore = () => {
