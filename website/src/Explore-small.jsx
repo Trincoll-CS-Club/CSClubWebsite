@@ -34,8 +34,7 @@ const Explore = () => {
         <>
           <Typography
             level="h1"
-            color="warning"
-            sx={{ textAlign: "center", pt: 5, fontSize: "3rem", paddingBottom: "40px" }}
+            sx={{ textAlign: "center", pt: 5, fontSize: "3rem", paddingBottom: "40px", color: "#195468" }}
           >
             {selectedBlog.title}
           </Typography>

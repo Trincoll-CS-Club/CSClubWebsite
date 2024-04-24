@@ -20,9 +20,9 @@ const Footer = () => {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "16px",
-          bgcolor: "#b68af4",
+          bgcolor: "#43A4AD",
           "&:hover": {
-            bgcolor: "#8338ec",
+            bgcolor: "#195468",
           },
         }}
       >

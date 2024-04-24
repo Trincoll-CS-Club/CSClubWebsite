@@ -16,7 +16,7 @@ const PersonCard = ({ imageSrc, name, position, emailAddress, linkedinUrl }) => 
   return (
     <Card
       ref={ref}
-      sx={{ width: 250, bgcolor: '#e2d0fb' }}
+      sx={{ width: 250, bgcolor: '#B9D5CD' }}
       variant="soft"
       className={`fade-in-section ${inView ? 'is-inView' : ''}`}
     >
@@ -29,8 +29,8 @@ const PersonCard = ({ imageSrc, name, position, emailAddress, linkedinUrl }) => 
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <ButtonGroup variant="soft" size="lg">
-          <Button component="a" href={`mailto:${emailAddress}`} sx={{ bgcolor: '#c5a1f7', '&:hover': { bgcolor: '#b58ef5' } }}>Email</Button>
-          <Button onClick={() => window.open(linkedinUrl, "_blank")} sx={{ bgcolor: '#c5a1f7', '&:hover': { bgcolor: '#b58ef5' } }}>LinkedIn</Button>
+          <Button component="a" href={`mailto:${emailAddress}`} sx={{ bgcolor: '#FCF5D9', '&:hover': { bgcolor: '#F09C50' } }}>Email</Button>
+          <Button onClick={() => window.open(linkedinUrl, "_blank")} sx={{ bgcolor: '#FCF5D9', '&:hover': { bgcolor: '#F09C50' } }}>LinkedIn</Button>
         </ButtonGroup>
       </div>
     </Card>

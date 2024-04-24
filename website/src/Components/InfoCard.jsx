@@ -9,13 +9,14 @@ const InfoCard = ({ header, description }) => {
         sx={{
           width: 350,
           height: 300,
-          border: "5px solid #ff006e",
+          border: "5px solid #195468",
           borderRadius: 10,
           padding: 2,
+          backgroundColor: "#FCF5D9",
           transition: "transform 0.3s, background-color 0.3s, color 0.3s",
           "&:hover": {
             transform: "scale(1.05)",
-            backgroundColor: "#ff006e",
+            backgroundColor: "#F09C50",
             color: "white",
           },
         }}

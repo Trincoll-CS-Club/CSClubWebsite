@@ -15,9 +15,9 @@ const NavBar = () => {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "16px",
-          bgcolor: "#b68af4",
+          bgcolor: "#43A4AD",
           "&:hover": {
-            bgcolor: "#8338ec",
+            bgcolor: "#195468",
           },
         }}
       >
@@ -30,10 +30,11 @@ const NavBar = () => {
           <Button
             variant="solid"
             sx={{
-              bgcolor: "#ff006e",
+              bgcolor: "#FCF5D9",
               "&:hover": {
-                bgcolor: "#cc0058",
+                bgcolor: "#F09C50",
               },
+              color: "black"
             }}
             onClick={() => (window.location.href = "/about.html")}
           >
@@ -42,10 +43,11 @@ const NavBar = () => {
           <Button
             variant="solid"
             sx={{
-              bgcolor: "#ff006e",
+              bgcolor: "#FCF5D9",
               "&:hover": {
-                bgcolor: "#cc0058",
+                bgcolor: "#F09C50",
               },
+              color: "black"
             }}
             onClick={() => (window.location.href = "/explore.html")}
           >
@@ -54,10 +56,11 @@ const NavBar = () => {
           <Button
             variant="solid"
             sx={{
-              bgcolor: "#ff006e",
+              bgcolor: "#FCF5D9",
               "&:hover": {
-                bgcolor: "#cc0058",
+                bgcolor: "#F09C50",
               },
+              color: "black"
             }}
             onClick={() => (window.location.href = "https://forms.gle/1khC8AiXXPhizdEDA")}
           >
