@@ -1,46 +1,65 @@
 import * as React from "react";
 import NavBar from "./Components/NavBar";
-
-import Typography from "@mui/joy/Typography";
 import Footer from "./Components/Footer";
-
+import BlogCard from "./Components/BlogCard";
+import Typography from "@mui/joy/Typography";
+import blogs from './Data/blog.json'; // Make sure the path matches where your JSON file is located
 
 const Explore = () => {
+  const [view, setView] = React.useState("list");
+  const [selectedBlog, setSelectedBlog] = React.useState(null);
+
+  const handleCardClick = (blog) => {
+    setSelectedBlog(blog);
+    setView("blog");
+  };
+
   return (
     <div>
       <NavBar />
-      <Typography
-        level="h1"
-        color="warning"
-        style={{ textAlign: "center", paddingTop: "70px", fontSize: "4rem" }}
-      >
-        About Us
-      </Typography>
-      <Typography
-        level="body-lg"
-        style={{
-          textAlign: "center",
-          paddingLeft: "200px",
-          paddingRight: "200px",
-          paddingTop: "20px",
-          fontSize: "1.5rem"
-        }}
-      >
-        Welcome to the Trinity College Computer Science Club! We are a
-        passionate community of students dedicated to exploring the vast and
-        evolving field of computer science. Our club is the hub for innovation,
-        learning, and collaboration at Trinity College, where students from
-        diverse backgrounds come together to share ideas, tackle challenging
-        projects, and develop new technologies. Whether you're a seasoned coder,
-        a tech enthusiast, or someone curious about the digital world, our club
-        offers a range of activities, workshops, and events designed to enrich
-        your understanding of computer science and its applications. From coding
-        marathons and hackathons to guest lectures from leading industry
-        experts, we provide a supportive and engaging environment for all
-        members to thrive. Join us and be part of a community that shapes the
-        future of technology!
-      </Typography>
-      <div style={{ paddingTop: "20px"}}>
+      {view === "list" && (
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", padding: "20px 50px" }}>
+          {blogs.map(blog => (
+            <div key={blog.title} style={{ flex: "1 0 21%", margin: "10px" }}> {/* Adjusted margin for reduced spacing */}
+              <BlogCard
+                title={blog.title}
+                imageSrc={blog.image_src}
+                onClick={() => handleCardClick(blog)}
+              />
+            </div>
+          ))}
+        </div>
+      )}
+      {view === "blog" && selectedBlog && (
+        <>
+          <Typography
+            level="h1"
+            color="warning"
+            sx={{ textAlign: "center", pt: 5, fontSize: "3rem", paddingBottom: "40px" }}
+          >
+            {selectedBlog.title}
+          </Typography>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              src={selectedBlog.image_src}
+              alt={selectedBlog.title}
+              style={{ maxWidth: 800, maxHeight: 800 }}
+            />
+          </div>
+          <Typography
+            level="body-lg"
+            sx={{
+              textAlign: "center",
+              px: 25,
+              pt: 2.5,
+              fontSize: "1.5rem",
+            }}
+          >
+            {selectedBlog.text}
+          </Typography>
+        </>
+      )}
+      <div style={{ paddingTop: "20px" }}>
         <Footer />
       </div>
     </div>
