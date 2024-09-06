@@ -19,34 +19,38 @@ const Footer = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "16px",
-          bgcolor: "#43A4AD",
+          padding: "20px",
+          bgcolor: "#FFECD1",
           "&:hover": {
-            bgcolor: "#195468",
+            bgcolor: "#FFECD1",
           },
+          width: "100%",
+          marginTop: 'auto',
+          marginBottom: '0px',
         }}
       >
         <Box
           sx={{
             display: "flex",
             gap: "2em",
-            justifyContent: "center", // Centers the content horizontally
-            alignItems: "center", // Centers the content vertically (if needed)
-            flexDirection: "row", // Ensures the items are laid out in a row; this is the default but is good to be explicit if changing orientation is possible.
-            width: "100%", // Ensures the Box takes the full width available, giving room for the centering to be noticeable.
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "row",
+            width: "100%",
+            marginTop: "auto",
           }}
         >
           <Tooltip title="https://www.trincoll.edu/cs/" variant="solid">
             <Button variant="plain" color="primary">
-                <img
-                  src={cslogo}
-                  loading="lazy"
-                  alt=""
-                  style={{ maxHeight: "30px", width: "auto"}}
-                  onClick={() =>
-                    (window.location.href = "https://www.trincoll.edu/cs/")
-                  }
-                />
+              <img
+                src={cslogo}
+                loading="lazy"
+                alt=""
+                style={{ maxHeight: "30px", width: "auto" }}
+                onClick={() =>
+                  (window.location.href = "https://www.trincoll.edu/cs/")
+                }
+              />
               <AspectRatio minHeight="30px" maxHeight="30px"></AspectRatio>
             </Button>
           </Tooltip>

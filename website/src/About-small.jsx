@@ -10,7 +10,7 @@ const About = () => {
       <NavBar />
       <Typography
         level="h1"
-        style={{ textAlign: "center", color: "#195468", paddingTop: "70px", fontSize: "4rem" }}
+        style={{ textAlign: "center", color: "#001524", paddingTop: "70px", fontSize: "4rem" }}
       >
         About Us
       </Typography>
@@ -24,7 +24,7 @@ const About = () => {
           fontSize: "1.5rem",
         }}
       >
-        Welcome to the <span style={{ backgroundColor: "#F09C50", color: "white"}}>Trinity College CS Club!</span> Since our start in 2023, we've
+        Welcome to the <span style={{ backgroundColor: "#FF7D00", color: "white"}}>Trinity College CS Club!</span> Since our start in 2023, we've
         grown into a cozy community of tech enthusiasts and innovators. Whether
         you're just starting or you've been coding for years, there's a spot for
         you here. Dive into a world of coding, collaboration, and creativity
@@ -33,7 +33,7 @@ const About = () => {
       
       <Typography
         level="h1"
-        style={{ textAlign: "center", paddingTop: "70px", fontSize: "3.5rem", color: "#195468" }}
+        style={{ textAlign: "center", paddingTop: "70px", fontSize: "3.5rem", color: "#001524" }}
       >
         Board Members
       </Typography>

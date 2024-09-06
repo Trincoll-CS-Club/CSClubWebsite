@@ -30,7 +30,7 @@ const PersonCard = ({ imageSrc, name, position, emailAddress, linkedinUrl }) => 
       <div style={{ display: "flex", justifyContent: "center" }}>
         <ButtonGroup variant="soft" size="lg">
           <Button component="a" href={`mailto:${emailAddress}`} sx={{ bgcolor: '#FCF5D9', '&:hover': { bgcolor: '#F09C50' } }}>Email</Button>
-          <Button onClick={() => window.open(linkedinUrl, "_blank")} sx={{ bgcolor: '#FCF5D9', '&:hover': { bgcolor: '#F09C50' } }}>LinkedIn</Button>
+          <Button href={linkedinUrl} onClick={() => window.open(linkedinUrl, "_blank")} sx={{ bgcolor: '#FCF5D9', '&:hover': { bgcolor: '#F09C50' } }}>LinkedIn</Button>
         </ButtonGroup>
       </div>
     </Card>

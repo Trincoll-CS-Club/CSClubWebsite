@@ -7,20 +7,24 @@ const BlogCard = ({ title, imageSrc, onClick }) => {
       onClick={onClick}
       sx={{
         width: 350,
-        height: 300,
-        border: "5px solid #195468",
+        height: 400,
+        border: "5px solid #15616D",
         borderRadius: 10,
         cursor: "pointer",
-        backgroundColor: "#FCF5D9",
+        backgroundColor: "#FFECD1",
         transition: "transform 0.3s, background-color 0.3s, color 0.3s",
         "&:hover": {
           transform: "scale(1.05)",
-          backgroundColor: "#F09C50",
+          backgroundColor: "#FF7D00",
           color: "white",
         },
       }}
     >
-      <img src={imageSrc} style={{ maxWidth: 120, maxHeight: 120 }} />
+      <img
+        src={imageSrc}
+        alt={title}
+        style={{ width: '100%', height: 200, objectFit: 'cover' }}
+      />
       <CardContent>
         <Typography level="h2" component="div">
           {title}

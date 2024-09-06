@@ -4,7 +4,7 @@
         "position": "President",
         "imageSrc": "https://i.ibb.co/5FHtPjS/3024x4032-jpeg-ba595fe711c9437dac5cc9ca23fdae2a-large.jpg",
         "emailAddress": "michael.monti@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/michaeljosephmonti"
+        "linkedinUrl": "https://linkedin.com/in/michaeljosephmonti"
     },
     {
         "name": "Anupam Khargharia",
@@ -18,34 +18,34 @@
         "position": "Seceretary",
         "imageSrc": "https://i.ibb.co/Wxp0gnH/b85abfdc90154fa2867b8e1caa256026.jpg",
         "emailAddress": "kaila.dowd@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/kaila-dowd"
+        "linkedinUrl": "https://linkedin.com/in/kaila-dowd"
     },
     {
         "name": "Shivashu Dwivedi",
         "position": "Treasurer",
         "imageSrc": "https://i.ibb.co/bF3CM98/6a155a5e3b484510b377f32f6df343e4.jpg",
         "emailAddress": "shivanshu.dwivedi@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/shivanshudwivedi"
+        "linkedinUrl": "https://linkedin.com/in/shivanshudwivedi"
     },
     {
         "name": "Bénédicte Baile",
         "position": "Marketing",
         "imageSrc": "https://i.ibb.co/Hd1nCcw/1237x1562-jpeg-de8b6506005f4fe08f647b80300284a7-large.jpg",
         "emailAddress": "myriamfleurbenedicte.baile@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/benedicte-baile"
+        "linkedinUrl": "https://linkedin.com/in/benedicte-baile"
     },
     {
         "name": "Shashwath Sunkum",
         "position": "Membership Coordinator",
         "imageSrc": "https://i.ibb.co/Hxr5ghw/43cb9f4a138f40f0a7564d4a6721f5aa.jpg",
         "emailAddress": "shashwath.sunkum@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/shashwath-sunkum-600128248"
+        "linkedinUrl": "https://linkedin.com/in/shashwath-sunkum-600128248"
     },
     {
         "name": "Lucas Lee",
         "position": "Full-Stack Developer",
         "imageSrc": "https://i.ibb.co/NVh1nMc/9a3fd7dff8f64c49bc409ea5251a213f.jpg",
         "emailAddress": "hyun.lee@trincoll.edu",
-        "linkedinUrl": "linkedin.com/in/mllucashyunlee"
+        "linkedinUrl": "https://linkedin.com/in/mllucashyunlee"
     }
 ]
